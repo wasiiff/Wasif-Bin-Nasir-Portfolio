@@ -70,4 +70,4 @@ Open [http://localhost:3000](http://localhost:3000) to view your new portfolio!
 This project is open-source. Feel free to use it as a template, modify it, and share your own version. If you find it helpful, a star on the repo would be much appreciated!
 
 ---
-Crafted with ❤️ by Saad Aziz
+Crafted with ❤️ by Wasif Bin Nasir
