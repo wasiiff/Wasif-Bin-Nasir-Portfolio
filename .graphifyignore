@@ -1,0 +1,41 @@
+# graphify ignore file
+# Mirrors .gitignore conventions — patterns are relative to this file's location
+
+# Dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+out/
+
+# Static assets (no code semantics)
+public/
+
+# Styles (CSS adds noise to code knowledge graphs)
+src/styles/
+
+# Lock files and package metadata
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+*.lock
+
+# Config files (no domain logic)
+*.config.js
+*.config.ts
+postcss.config.js
+tailwind.config.js
+tsconfig.json
+next.config.js
+.eslintrc.json
+.prettierignore
+.eslintignore
+
+# graphify artifacts
+graphify-out/
+.graphify_*.json
+.graphify_python
+
+# Environment and secrets
+.env
+.env.*
