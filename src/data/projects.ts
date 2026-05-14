@@ -4,27 +4,37 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "Shadway",
+    href: "/projects",
+    tags: ["Next.js", "Shadcn", "Tailwind v4", "MongoDB", "AI"],
+    youtubeUrl: "",
+    liveWebsiteHref: "https://shadway.online",
+  },
+  {
+    index: 1,
+    title: "Blokk Lens",
+    href: "/projects",
+    tags: ["Next.js 16", "Wagmi", "RainbowKit", "CoinGecko", "AI"],
+    youtubeUrl: "",
+    liveWebsiteHref: "https://blokklens.vercel.app",
+  },
+  {
+    index: 2,
+    title: "Arsenal.chat",
+    href: "/projects",
+    tags: ["Next.js", "TypeScript", "AI", "Vercel"],
+    youtubeUrl: "",
+    liveWebsiteHref: "https://arsenaldotchat.vercel.app",
+  },
+  {
+    index: 3,
     title: "AutoGrader",
     href: "/projects",
     tags: ["Next.js", "Nest.js", "MongoDB", "LangChain", "Gemini"],
     youtubeUrl: "https://www.youtube.com/watch?v=tLLQjr-e5Dw",
   },
   {
-    index: 1,
-    title: "CareerCraft",
-    href: "/projects",
-    tags: ["Next.js", "TypeScript", "Nest.js", "MongoDB", "Puppeteer"],
-    youtubeUrl: "https://www.youtube.com/watch?v=dhZ-nAk4e90",
-  },
-  {
-    index: 2,
-    title: "SHOP.CO",
-    href: "/projects",
-    tags: ["Next.js", "Nest.js", "MongoDB", "Stripe", "OAuth"],
-    youtubeUrl: "https://www.youtube.com/watch?v=nA58Rqfv9iY",
-  },
-  {
-    index: 3,
+    index: 4,
     title: "Cric-Stats-Break",
     href: "/projects",
     tags: ["Next.js", "LangGraph", "Gemini", "MongoDB"],
@@ -34,6 +44,33 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
+    name: "Shadway",
+    imageUrl: "/images/projects/shadway.png",
+    description:
+      "A curated Shadcn UI component library and platform — discover, generate via AI, and publish production-ready components. Includes a Vibecode gallery, premium templates, and community submissions, all built with Next.js 15 and Tailwind v4.",
+    sourceCodeHref: "https://github.com/moazamtech/shadway",
+    liveWebsiteHref: "https://shadway.online",
+    tags: ["Next.js 15", "Shadcn", "Tailwind v4", "MongoDB", "AI Generator"],
+  },
+  {
+    name: "Blokk Lens",
+    imageUrl: "/images/projects/blokk-lens.png",
+    description:
+      "Next-gen crypto tracking and portfolio platform with real-time market data, AI trading insights, multi-chain wallet support (Ethereum, Polygon, Base, Arbitrum…), and a glassmorphism UI. Built on Next.js 16, Wagmi, RainbowKit, and the CoinGecko API.",
+    sourceCodeHref: "https://github.com/wasiiff/blokk-lens",
+    liveWebsiteHref: "https://blokklens.vercel.app",
+    tags: ["Next.js 16", "Wagmi", "RainbowKit", "AI SDK", "Web3"],
+  },
+  {
+    name: "Arsenal.chat",
+    imageUrl: "/images/projects/arsenaldotchat.png",
+    description:
+      "Pakistan's first leading chat wrapper — a slick, low-latency conversational interface built on Next.js with TypeScript, optimized for fast streaming responses and a polished mobile-first UX.",
+    sourceCodeHref: "https://github.com/moazamtech/arsenaldotchat",
+    liveWebsiteHref: "https://arsenaldotchat.vercel.app",
+    tags: ["Next.js", "TypeScript", "AI Chat", "Vercel"],
+  },
+  {
     name: "AutoGrader",
     youtubeUrl: "https://www.youtube.com/watch?v=tLLQjr-e5Dw",
     description:
@@ -41,24 +78,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/wasiiff/Auto-Grader",
     liveWebsiteHref: "https://auto-grader-gui.vercel.app/",
     tags: ["Next.js", "Nest.js", "MongoDB", "LangChain", "Gemini"],
-  },
-  {
-    name: "CareerCraft",
-    youtubeUrl: "https://www.youtube.com/watch?v=dhZ-nAk4e90",
-    description:
-      "Full-stack resume builder with real-time preview and instant export to PDF/DOCX formats, designed for responsiveness across all devices.",
-    sourceCodeHref: "https://github.com/wasiiff/CareerCraft",
-    liveWebsiteHref: "https://career-craft-client-beta.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Nest.js", "MongoDB", "Puppeteer"],
-  },
-  {
-    name: "SHOP.CO",
-    youtubeUrl: "https://www.youtube.com/watch?v=nA58Rqfv9iY",
-    description:
-      "Complete e-commerce platform featuring secure Stripe payments, an admin dashboard, OAuth 2.0 authentication, and advanced product filtering.",
-    sourceCodeHref: "https://github.com/wasiiff/Ecom_Client",
-    liveWebsiteHref: "https://clientgui.vercel.app/",
-    tags: ["Next.js", "Nest.js", "MongoDB", "Stripe", "OAuth"],
   },
   {
     name: "Cric-Stats-Break",

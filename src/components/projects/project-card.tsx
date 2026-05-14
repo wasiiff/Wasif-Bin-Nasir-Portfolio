@@ -5,7 +5,8 @@ import { classNames } from "@/utility/classNames";
 
 export interface ProjectCardProps {
   name: string;
-  youtubeUrl: string;
+  youtubeUrl?: string;
+  imageUrl?: string;
   description: string;
   sourceCodeHref: string;
   liveWebsiteHref?: string;
@@ -123,17 +124,31 @@ export default function ProjectCard(props: ProjectCardProps) {
         >
           {/* corner ribbon */}
           <div className="pointer-events-none absolute left-4 top-4 z-20 flex items-center gap-2">
-            <span className="rounded-full bg-background/85 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-foreground backdrop-blur-md ring-1 ring-border">
-              {num} / Case study
+            <span className="flex items-center gap-1.5 rounded-full bg-background/85 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-foreground backdrop-blur-md ring-1 ring-border">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+              {num} · {props.youtubeUrl ? "Demo reel" : "In production"}
             </span>
           </div>
-          <iframe
-            src={getEmbedUrl(props.youtubeUrl)}
-            className="absolute inset-0 h-full w-full"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title={props.name}
-          />
+          {props.imageUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={props.imageUrl}
+              alt={`${props.name} preview`}
+              loading="lazy"
+              className={classNames(
+                "absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out",
+                hovered ? "scale-[1.04]" : "scale-100",
+              )}
+            />
+          ) : props.youtubeUrl ? (
+            <iframe
+              src={getEmbedUrl(props.youtubeUrl)}
+              className="absolute inset-0 h-full w-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title={props.name}
+            />
+          ) : null}
         </div>
       </div>
     </motion.article>
