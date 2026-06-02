@@ -33,7 +33,8 @@ export const sendMail = async function (
   return new Promise((resolve) => {
     transporter.sendMail(mailOptions, (error) => {
       if (error) {
-        resolve({ status: 500, message: "Failed to send mail" });
+        console.error("Mail Error:", error);
+        resolve({ status: 500, message: "Failed to send mail: " + error.message });
       } else {
         resolve({ status: 200, message: "Mail send successfully" });
       }

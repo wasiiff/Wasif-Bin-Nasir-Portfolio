@@ -1,4 +1,4 @@
-import { AnimatePresence, Variants, motion } from "framer-motion";
+import { AnimatePresence, Variants, motion, easeInOut } from "framer-motion";
 
 export default function AnimatedLogo() {
   const iconVariant: Variants = {
@@ -26,7 +26,7 @@ export default function AnimatedLogo() {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 3, ease: "easeInOut" },
+            default: { duration: 3, ease: easeInOut },
             fill: { duration: 3, ease: [1, 0, 0.8, 1] },
           }}
         />
@@ -37,7 +37,7 @@ export default function AnimatedLogo() {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 3, ease: "easeInOut" },
+            default: { duration: 3, ease: easeInOut },
             fill: { duration: 3, ease: [1, 0, 0.8, 1] },
           }}
         />

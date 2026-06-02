@@ -116,7 +116,7 @@ export function ReactRouterDomIcon({ className }: { className?: string }) {
   );
 }
 
-export function FramerMotionIcon({ className }: { className: string }) {
+export function FramerMotionIcon({ className }: { className?: string }) {
   return (
     <svg
       width="100%"
@@ -134,7 +134,7 @@ export function FramerMotionIcon({ className }: { className: string }) {
   );
 }
 
-export function VitePwaIcon({ className }: { className: string }) {
+export function VitePwaIcon({ className }: { className?: string }) {
   return (
     <svg
       width="100%"
