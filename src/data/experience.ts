@@ -13,7 +13,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       "Built scalable MERN apps with Web3 integrations (Wagmi, Viem) for wallet auth and multi-chain support; contributed to the Arenatwo ecosystem with complex on-chain interaction flows. Managed Strapi CMS + MongoDB for content workflows; built Firebase Cloud Functions for serverless automation and developed Chrome Extensions for extended platform usability. Integrated AI-driven features for intelligent content delivery, enhancing user engagement and experience.",
   },
   {
-    title: "MERN Stack Developer",
+    title: "Associate Software Engineer",
     organisation: {
       name: "Netixsol",
       href: "https://www.netixsol.com/",

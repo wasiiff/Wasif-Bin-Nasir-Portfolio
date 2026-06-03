@@ -36,7 +36,7 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
           <div className="flex items-center gap-3">
             <span className="h-px w-10 bg-accent" />
             <span className="text-xs font-bold uppercase tracking-[0.25em] text-accent">
-              Skills · 03
+              Skills ·
             </span>
           </div>
 

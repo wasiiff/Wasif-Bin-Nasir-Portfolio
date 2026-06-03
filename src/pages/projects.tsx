@@ -66,7 +66,7 @@ export default function Projects() {
                 </h1>
                 <div className="flex items-center gap-3 text-sm font-semibold text-muted-foreground sm:pb-2">
                   <span className="flex h-2 w-2 animate-pulse rounded-full bg-accent" />
-                  {PROJECTS_CARD.length} case studies
+                  {PROJECTS_CARD.length} Projects ·
                 </div>
               </div>
 

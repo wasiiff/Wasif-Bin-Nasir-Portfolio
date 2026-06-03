@@ -59,20 +59,20 @@ export default function AboutHero() {
                   priority
                 />
                 {/* corner status badge */}
-                <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between rounded-2xl bg-background/85 px-4 py-3 backdrop-blur-md ring-1 ring-border">
+                {/* <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between rounded-2xl bg-background/85 px-4 py-3 backdrop-blur-md ring-1 ring-border">
                   <div className="flex items-center gap-2">
                     <span className="relative flex h-2.5 w-2.5">
                       <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
                       <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-accent" />
                     </span>
                     <span className="text-xs font-semibold text-foreground">
-                      Open to work
+                      Open to opportunities
                     </span>
                   </div>
                   <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-muted-foreground">
-                    Karachi, PK
+                    Islamabad, PK
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </FadeUp>
@@ -83,7 +83,7 @@ export default function AboutHero() {
               <div className="flex items-center gap-3">
                 <span className="h-px w-10 bg-accent" />
                 <span className="text-xs font-bold uppercase tracking-[0.25em] text-accent">
-                  About Me · 01
+                  About Me ·
                 </span>
               </div>
             </FadeUp>
@@ -135,7 +135,7 @@ export default function AboutHero() {
             </FadeUp>
 
             {/* stats row */}
-            <FadeUp key="hero-stats" duration={0.6} delay={0.42}>
+            {/* <FadeUp key="hero-stats" duration={0.6} delay={0.42}>
               <div className="grid grid-cols-3 gap-3 pt-2 sm:gap-4">
                 {STATS.map((stat, i) => (
                   <motion.div
@@ -159,10 +159,10 @@ export default function AboutHero() {
                   </motion.div>
                 ))}
               </div>
-            </FadeUp>
+            </FadeUp> */}
 
             {/* socials */}
-            <FadeUp key="hero-socials" duration={0.6} delay={0.5}>
+            {/* <FadeUp key="hero-socials" duration={0.6} delay={0.5}>
               <div className="flex items-center gap-3 pt-2">
                 <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-muted-foreground">
                   Connect
@@ -183,7 +183,7 @@ export default function AboutHero() {
                   ))}
                 </div>
               </div>
-            </FadeUp>
+            </FadeUp> */}
           </div>
         </div>
       </AnimatePresence>
