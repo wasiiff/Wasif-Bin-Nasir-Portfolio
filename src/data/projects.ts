@@ -72,7 +72,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "AutoGrader",
-    youtubeUrl: "https://www.youtube.com/watch?v=tLLQjr-e5Dw",
+    imageUrl: "/images/projects/autograder.png",
     description:
       "AI-powered assignment evaluation system that automates grading for teacher-uploaded student assignments with intelligent analysis and CSV export functionality.",
     sourceCodeHref: "https://github.com/wasiiff/Auto-Grader",
@@ -81,7 +81,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Cric-Stats-Break",
-    youtubeUrl: "https://www.youtube.com/watch?v=ckgp1IVc_I8",
+    imageUrl: "/images/projects/crcikstat.png",
     description:
       "AI cricket analytics engine with RAG-powered natural language querying, Gemini Pro, and persistent multi-turn conversational memory.",
     sourceCodeHref: "https://github.com/wasiiff/Stats-Break",

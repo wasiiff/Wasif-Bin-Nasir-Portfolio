@@ -12,7 +12,7 @@ const CustomTextarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
         ref={ref}
         {...props}
         className={classNames(
-          "w-full rounded-lg border-none bg-background font-semibold text-accent placeholder:font-normal placeholder:text-muted-foreground focus-within:border-2 focus-within:border-accent focus-within:ring-accent",
+          "w-full rounded-lg border-none bg-background font-semibold text-accent placeholder:font-normal placeholder:text-muted-foreground focus-within:border-2 focus-within:border-accent focus-within:ring-accent dark:bg-white",
           className,
         )}
       />
