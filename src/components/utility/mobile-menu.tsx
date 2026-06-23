@@ -57,7 +57,9 @@ export default function MobileMenu({
                 ))}
                 <ThemeSwitch setClose={setOpenMenu} />
               </div>
-              <div className="absolute bottom-0 py-6">©2023 Saad Aziz</div>
+              <div className="absolute bottom-0 py-6">
+                ©2025 Omer Abdul Rehman Sabir
+              </div>
             </DialogPanel>
           </TransitionChild>
         </div>

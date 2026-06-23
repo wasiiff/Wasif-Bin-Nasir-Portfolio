@@ -11,9 +11,9 @@ import {
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 const STATS = [
-  { value: "1+", label: "Years shipping" },
-  { value: "5+", label: "Production builds" },
-  { value: "1200+", label: "Students led" },
+  { value: "2+", label: "Years freelancing" },
+  { value: "Many", label: "Brands served" },
+  { value: "100%", label: "Client focus" },
 ] as const;
 
 const SOCIALS = [
@@ -70,7 +70,7 @@ export default function AboutHero() {
                     </span>
                   </div>
                   <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-muted-foreground">
-                    Islamabad, PK
+                    Gujrat, PK
                   </span>
                 </div> */}
               </div>
@@ -92,7 +92,7 @@ export default function AboutHero() {
               <h1 className="text-5xl font-bold leading-[1.02] tracking-tight text-foreground sm:text-6xl md:text-7xl">
                 Hi, I&apos;m{" "}
                 <span className="relative inline-block text-accent">
-                  Wasif
+                  Omer
                   <span
                     aria-hidden
                     className="absolute -bottom-1 left-0 h-1.5 w-full rounded-full bg-accent/30"
@@ -104,33 +104,36 @@ export default function AboutHero() {
 
             <FadeUp key="hero-role" duration={0.55} delay={0.18}>
               <p className="text-lg font-semibold text-foreground/80 md:text-xl">
-                Full-Stack &amp; Web3 Engineer · building AI-driven systems and
-                blockchain platforms.
+                Freelance Graphic Designer &amp; Customer Service Representative
+                · building brands and great customer experiences.
               </p>
             </FadeUp>
 
             <FadeUp key="hero-bio-1" duration={0.6} delay={0.26}>
               <p className="max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-                Over a year of experience shipping enterprise-grade web apps,
-                AI-powered pipelines, and blockchain-integrated platforms.
-                Proficient in{" "}
-                <span className="font-semibold text-foreground">Next.js</span>,{" "}
-                <span className="font-semibold text-foreground">Nest.js</span>,{" "}
-                <span className="font-semibold text-foreground">LangChain</span>
+                A freelance graphic designer since 2023, helping multiple brands
+                build and strengthen their visual identity. Proficient in{" "}
+                <span className="font-semibold text-foreground">
+                  Adobe Illustrator
+                </span>
                 ,{" "}
-                <span className="font-semibold text-foreground">Wagmi</span>,
+                <span className="font-semibold text-foreground">Photoshop</span>
+                ,{" "}
+                <span className="font-semibold text-foreground">Figma</span>,
                 and{" "}
-                <span className="font-semibold text-foreground">MongoDB</span> —
-                shipping production systems that automate workflows and scale
-                reliably.
+                <span className="font-semibold text-foreground">Canva</span> —
+                creating social media posts, posters, logos, and banners that
+                enhance engagement and brand presence.
               </p>
             </FadeUp>
 
             <FadeUp key="hero-bio-2" duration={0.6} delay={0.34}>
               <p className="max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-                Beyond code, I served as Head Class Representative for 1200+
-                students and led IT operations as Media &amp; IT Director at
-                TUFMUN&apos;24 — combining technical depth with real leadership.
+                Alongside design, I&apos;ve spent years as a Customer Service
+                Representative and direct sales associate — resolving customer
+                issues, de-escalating tough conversations, and building lasting
+                client relationships. I combine creative skill with strong
+                communication and problem-solving.
               </p>
             </FadeUp>
 

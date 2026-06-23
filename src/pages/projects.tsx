@@ -10,20 +10,20 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects by Wasif Bin Nasir | Full-Stack &amp; Web3 Engineer</title>
+        <title>Work by Omer Abdul Rehman Sabir | Graphic Designer</title>
         <meta
           name="description"
-          content="Explore projects by Muhammad Wasif Bin Nasir — AI-powered apps, Web3 platforms, and full-stack systems built with Next.js, Nest.js, LangChain, and Wagmi."
+          content="Explore graphic design work by Omer Abdul Rehman Sabir — brand identities, logos, social media designs, posters, and marketing collateral."
         />
         <link rel="canonical" href={`${siteMetadata.siteUrl}/projects`} />
         <meta property="og:url" content={`${siteMetadata.siteUrl}/projects`} />
         <meta
           property="og:title"
-          content="Projects by Wasif Bin Nasir - Full-Stack & Web3 Engineer"
+          content="Work by Omer Abdul Rehman Sabir - Graphic Designer"
         />
         <meta
           property="og:description"
-          content="Discover AI-powered apps, Web3 platforms, and full-stack systems crafted by Wasif Bin Nasir."
+          content="Discover brand identities, logos, social media designs, posters, and marketing collateral crafted by Omer Abdul Rehman Sabir."
         />
         <meta
           property="og:image"
@@ -34,7 +34,7 @@ export default function Projects() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="keywords"
-          content="Projects, Portfolio, Full-Stack Developer, Web3, AI, Next.js, Nest.js, LangChain, MongoDB, Blockchain"
+          content="Projects, Portfolio, Graphic Design, Logo Design, Branding, Social Media Design, Posters, Flyers, Marketing Collateral, Adobe Illustrator, Photoshop"
         />
       </Head>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
@@ -54,7 +54,7 @@ export default function Projects() {
               <div className="flex items-center gap-3">
                 <span className="h-px w-10 bg-accent" />
                 <span className="text-xs font-bold uppercase tracking-[0.25em] text-accent">
-                  Portfolio · 2024–25
+                  Portfolio · Graphic Design
                 </span>
               </div>
 
@@ -62,17 +62,17 @@ export default function Projects() {
                 <h1 className="max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight text-foreground md:text-6xl lg:text-7xl">
                   Selected work,
                   <br />
-                  built end-to-end.
+                  crafted with care.
                 </h1>
                 <div className="flex items-center gap-3 text-sm font-semibold text-muted-foreground sm:pb-2">
                   <span className="flex h-2 w-2 animate-pulse rounded-full bg-accent" />
-                  {PROJECTS_CARD.length} Projects ·
+                  {PROJECTS_CARD.length} Categories ·
                 </div>
               </div>
 
               <p className="mt-2 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-                AI-powered pipelines, Web3 platforms, and full-stack systems —
-                shipped to production. Hover any preview to see it in motion.
+                Brand identities, logos, social media designs, and marketing
+                collateral. Explore the full collection on Behance.
               </p>
             </div>
           </div>
@@ -91,21 +91,21 @@ export default function Projects() {
                 What&apos;s next
               </p>
               <p className="mt-3 text-2xl font-bold leading-snug text-foreground md:text-3xl">
-                Currently exploring deeper Web3 integrations and agentic AI
-                systems — open to ambitious collaborations.
+                Always taking on new branding and design projects — open to
+                freelance work and creative collaborations.
               </p>
             </div>
             <div className="flex flex-col justify-center gap-4 bg-foreground p-8 md:col-span-2 md:p-12">
               <p className="text-sm text-background/70">
-                See more on GitHub
+                See more on Behance
               </p>
               <a
-                href={`${siteMetadata.github}?tab=repositories`}
+                href={siteMetadata.behance}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-between gap-2 rounded-xl bg-accent px-5 py-4 text-base font-bold text-accent-foreground transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-accent/30"
               >
-                <span>@wasiiff</span>
+                <span>@graphicdesign781</span>
                 <ArrowTopRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
               <a

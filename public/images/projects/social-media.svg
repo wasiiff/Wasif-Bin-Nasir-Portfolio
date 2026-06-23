@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17131f"/>
+      <stop offset="1" stop-color="#2a1f3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#F0502F" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F0502F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"><line x1="0" y1="0" x2="0" y2="900"/><line x1="100" y1="0" x2="100" y2="900"/><line x1="200" y1="0" x2="200" y2="900"/><line x1="300" y1="0" x2="300" y2="900"/><line x1="400" y1="0" x2="400" y2="900"/><line x1="500" y1="0" x2="500" y2="900"/><line x1="600" y1="0" x2="600" y2="900"/><line x1="700" y1="0" x2="700" y2="900"/><line x1="800" y1="0" x2="800" y2="900"/><line x1="900" y1="0" x2="900" y2="900"/><line x1="1000" y1="0" x2="1000" y2="900"/><line x1="1100" y1="0" x2="1100" y2="900"/><line x1="1200" y1="0" x2="1200" y2="900"/><line x1="1300" y1="0" x2="1300" y2="900"/><line x1="1400" y1="0" x2="1400" y2="900"/><line x1="1500" y1="0" x2="1500" y2="900"/><line x1="1600" y1="0" x2="1600" y2="900"/><line x1="0" y1="0" x2="1600" y2="0"/><line x1="0" y1="100" x2="1600" y2="100"/><line x1="0" y1="200" x2="1600" y2="200"/><line x1="0" y1="300" x2="1600" y2="300"/><line x1="0" y1="400" x2="1600" y2="400"/><line x1="0" y1="500" x2="1600" y2="500"/><line x1="0" y1="600" x2="1600" y2="600"/><line x1="0" y1="700" x2="1600" y2="700"/><line x1="0" y1="800" x2="1600" y2="800"/><line x1="0" y1="900" x2="1600" y2="900"/></g>
+  <text x="1430" y="780" text-anchor="end" font-size="520" font-weight="800" fill="#ffffff" fill-opacity="0.05">Cv</text>
+  <text x="90" y="150" font-size="34" font-weight="700" letter-spacing="10" fill="#F0502F">02 / DESIGN</text>
+  <text x="86" y="470" font-size="132" font-weight="800" fill="#ffffff">Social Media</text>
+  <text x="86" y="600" font-size="132" font-weight="800" fill="#ffffff" fill-opacity="0.55">Design Sets</text>
+  <rect x="90" y="690" width="118" height="6" rx="3" fill="#F0502F"/>
+  <text x="90" y="800" font-size="38" font-weight="600" fill="#ffffff" fill-opacity="0.8">View on Behance  &#8594;</text>
+</svg>

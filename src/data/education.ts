@@ -2,14 +2,25 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor of Computer Science",
+    title: "Intermediate",
     organisation: {
-      name: "The University of Faisalabad",
-      href: "https://tuf.edu.pk/",
+      name: "Superior Group of Colleges, Gujrat",
+      href: "#",
     },
-    date: "2021 – 2025",
-    location: "Faisalabad, Punjab",
+    date: "2021",
+    location: "Gujrat, Punjab",
     description:
-      "CGPA: 3.75/4.0. Head Class Representative for 1200+ students. Media & IT Director, TUFMUN'24. Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Networks, and Database Management.",
+      "Completed Intermediate (HSSC) education, building a foundation in core subjects alongside growing interests in design and communication.",
+  },
+  {
+    title: "Matriculation",
+    organisation: {
+      name: "Madina Model High School, Gujrat",
+      href: "#",
+    },
+    date: "2019",
+    location: "Gujrat, Punjab",
+    description:
+      "Completed Matriculation (SSC), where an early interest in creativity, visual arts, and working with people first took shape.",
   },
 ];

@@ -46,13 +46,13 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
             </h2>
             <div className="flex items-center gap-2 text-sm font-semibold text-muted-foreground sm:pb-2">
               <span className="text-foreground">{totalSkills}</span>
-              <span>technologies · {skills.length} categories</span>
+              <span>skills · {skills.length} categories</span>
             </div>
           </div>
 
           <p className="mt-1 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            The languages, frameworks, and infrastructure I reach for when
-            shipping production systems.
+            The design tools, software, and people skills I reach for when
+            building brands and supporting customers.
           </p>
         </div>
 

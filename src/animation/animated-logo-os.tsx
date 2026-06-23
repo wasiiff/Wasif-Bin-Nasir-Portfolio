@@ -1,6 +1,6 @@
 import { AnimatePresence, Variants, motion, easeInOut } from "framer-motion";
 
-export default function AnimatedLogoWN() {
+export default function AnimatedLogoOS() {
   const strokeVariant: Variants = {
     hidden: {
       pathLength: 0,
@@ -20,12 +20,14 @@ export default function AnimatedLogoWN() {
         className="h-full w-full overflow-visible stroke-accent"
         fill="none"
         strokeLinecap="round"
-        strokeLinejoin="miter"
+        strokeLinejoin="round"
         strokeMiterlimit={8}
       >
-        {/* W — drawn first, full weight */}
-        <motion.path
-          d="M 30 95 L 78 280 L 150 150 L 222 280 L 270 95"
+        {/* O — drawn first, full weight */}
+        <motion.circle
+          cx="115"
+          cy="187"
+          r="78"
           strokeWidth="26"
           custom={1}
           variants={strokeVariant}
@@ -36,11 +38,11 @@ export default function AnimatedLogoWN() {
             opacity: { duration: 0.2 },
           }}
         />
-        {/* N — overlaid and offset, lighter so the overlap reads as woven depth */}
+        {/* S — drawn second, lighter so the pair reads as a woven monogram */}
         <motion.path
-          d="M 135 280 L 135 95 L 300 280 L 300 95"
+          d="M 300 138 C 300 108, 252 104, 232 120 C 208 140, 218 174, 252 187 C 290 201, 298 238, 274 258 C 251 277, 210 272, 205 244"
           strokeWidth="26"
-          custom={0.55}
+          custom={0.6}
           variants={strokeVariant}
           initial="hidden"
           animate="visible"

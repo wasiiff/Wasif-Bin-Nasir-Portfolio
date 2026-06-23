@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import MenuLogo from "@/components/utility/menu-button";
 import ThemeSwitch from "@/components/utility/theme-switch";
-import AnimatedLogoWN from "@/animation/animated-logo-wn";
+import AnimatedLogoOS from "@/animation/animated-logo-os";
 import MobileMenu from "@/components/utility/mobile-menu";
 import { classNames } from "@/utility/classNames";
 
@@ -39,7 +39,7 @@ export default function Navbar(props: NavbarProps) {
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
-            <AnimatedLogoWN />
+            <AnimatedLogoOS />
           </div>
         </Link>
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-border backdrop-blur-md dark:ring-accent/50 md:flex">

@@ -10,20 +10,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Muhammad Wasif Bin Nasir | Full-Stack &amp; Web3 Engineer</title>
+        <title>Omer Abdul Rehman Sabir | Graphic Designer &amp; Customer Service Rep</title>
         <meta
           name="description"
-          content="Full-Stack & Web3 Engineer with 1+ year of experience building enterprise-grade web applications, AI-powered pipelines, and blockchain-integrated platforms."
+          content="Freelance Graphic Designer & Customer Service Representative crafting brand identities, logos, and marketing visuals while delivering standout customer experiences."
         />
         <link rel="canonical" href={siteMetadata.siteUrl} />
         <meta property="og:url" content={siteMetadata.siteUrl} />
         <meta
           property="og:title"
-          content="Muhammad Wasif Bin Nasir | Full-Stack & Web3 Engineer"
+          content="Omer Abdul Rehman Sabir | Graphic Designer & Customer Service Representative"
         />
         <meta
           property="og:description"
-          content="Full-Stack & Web3 Engineer specializing in Next.js, Nest.js, LangChain, Wagmi, and MongoDB — shipping production systems that automate workflows and scale reliably."
+          content="Freelance Graphic Designer & Customer Service Representative skilled in Adobe Illustrator, Photoshop, Figma, and Canva — building brands and great customer experiences."
         />
         <meta
           property="og:image"
@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="keywords"
-          content="Full-Stack Developer, Web3 Engineer, Next.js, Nest.js, LangChain, Wagmi, MongoDB, AI, Blockchain, React, TypeScript, Portfolio"
+          content="Graphic Designer, Customer Service Representative, Logo Design, Branding, Adobe Illustrator, Photoshop, Figma, Canva, Social Media Design, Freelance Designer, Portfolio"
         />
         {siteMetadata.googleSiteVerification && (
           <meta

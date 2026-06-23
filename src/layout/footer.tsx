@@ -1,5 +1,8 @@
+import { SiBehance } from "react-icons/si";
+import { FaPhone } from "react-icons/fa6";
+
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { MailIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -23,33 +26,29 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2025 Muhammad Wasif Bin Nasir</span>
+        <span className="text-foreground">©2025 Omer Abdul Rehman Sabir</span>
         <div className="flex gap-8">
           <a
-            href={siteMetadata.github}
+            href={siteMetadata.behance}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Github"
+            aria-label="link to Behance"
           >
-            <GithubIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
+            <SiBehance className="h-full w-full text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
-          {siteMetadata.twitter && (
-            <a
-              href={siteMetadata.twitter}
-              target="_blank"
-              className="h-6 w-6"
-              aria-label="link to Twitter"
-            >
-              <TwitterIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-            </a>
-          )}
           <a
-            href={siteMetadata.linkedin}
-            target="_blank"
+            href={`mailto:${siteMetadata.email}`}
             className="h-6 w-6"
-            aria-label="link to Linkedin"
+            aria-label="send an email"
           >
-            <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
+            <MailIcon className="h-full w-full text-accent transition-colors duration-150 hover:text-accent-foreground" />
+          </a>
+          <a
+            href={`tel:${siteMetadata.phone.replace(/\s/g, "")}`}
+            className="h-6 w-6"
+            aria-label="call phone number"
+          >
+            <FaPhone className="h-full w-full text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
         </div>
       </div>

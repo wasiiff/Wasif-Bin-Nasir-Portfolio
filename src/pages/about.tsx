@@ -11,20 +11,20 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Wasif Bin Nasir | Full-Stack &amp; Web3 Engineer</title>
+        <title>About Omer Abdul Rehman Sabir | Graphic Designer &amp; CSR</title>
         <meta
           name="description"
-          content="Learn more about Muhammad Wasif Bin Nasir, a Full-Stack & Web3 Engineer with 1+ year of experience building enterprise-grade web apps, AI pipelines, and blockchain platforms."
+          content="Learn more about Omer Abdul Rehman Sabir, a freelance Graphic Designer & Customer Service Representative skilled in Adobe Illustrator, Photoshop, Figma, and Canva."
         />
         <link rel="canonical" href={`${siteMetadata.siteUrl}/about`} />
         <meta property="og:url" content={`${siteMetadata.siteUrl}/about`} />
         <meta
           property="og:title"
-          content="About Wasif Bin Nasir - Full-Stack & Web3 Engineer"
+          content="About Omer Abdul Rehman Sabir - Graphic Designer & Customer Service Representative"
         />
         <meta
           property="og:description"
-          content="Discover the journey, skills, and projects of Wasif Bin Nasir — Full-Stack & Web3 Engineer specializing in Next.js, Nest.js, LangChain, and Wagmi."
+          content="Discover the journey, skills, and experience of Omer Abdul Rehman Sabir — freelance Graphic Designer and Customer Service Representative."
         />
         <meta
           property="og:image"
@@ -35,7 +35,7 @@ export default function About() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="keywords"
-          content="About, Full-Stack Developer, Web3 Engineer, Next.js, Nest.js, LangChain, Wagmi, MongoDB, AI, Blockchain"
+          content="About, Graphic Designer, Customer Service Representative, Logo Design, Branding, Adobe Illustrator, Photoshop, Figma, Canva, Freelance Designer"
         />
       </Head>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
